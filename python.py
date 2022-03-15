@@ -16,6 +16,6 @@ class Human:
     return f"""The name of the human is {self.name}. The race of the human is {self.race}. The age of the human is {self.age}. The gender of the human is a {self.gender}."""
 
 poodle = Dog('chloe', 'poodle', False, 'canus lupus familiaris')
-kyle = Human('Kyle', 12, 'Asian: Taiwanese', 'boy')
-print(Human.show_info_human(kyle))
+Sushanth = Human('Sushanth', 12, 'Indian', 'boy')
+print(Human.show_info_human(Sushanth))
 print(Dog.show_info_dog(poodle))
