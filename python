@@ -1,1 +1,8 @@
-
+class Dog:
+  def __init__(self, name, type, life_expectancy, is_ext):
+    self.name = name
+    self.type = type
+    self.life_expectancy = life_expectancy
+    self.is_ext = is_ext
+  def show_info:
+    return f"""
