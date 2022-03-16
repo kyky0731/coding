@@ -15,7 +15,9 @@ class Human:
   def show_info_human(self):
     return f"""The name of the human is {self.name}. The race of the human is {self.race}. The age of the human is {self.age}. The gender of the human is a {self.gender}."""
 
-poodle = Dog('chloe', 'poodle', False, 'canus lupus familiaris')
-Sushanth = Human('Sushanth', 12, 'Indian', 'boy')
-print(Human.show_info_human(Sushanth))
-print(Dog.show_info_dog(poodle))
+  name = input('What is your name? ')
+  age = input('What is the age of the human? If the species is not human, skip this step. ')
+  race = input('What is the race of the human? If the species is not human, skip this step. ')
+  gender = input('What is the gender of the human? If the species is not human, skip this step. ')
+  is_ext = input('Is the dog extinct? If the species is not a dog, skip this step. ')
+  
