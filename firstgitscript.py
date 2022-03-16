@@ -20,4 +20,6 @@ class Human:
   race = input('What is the race of the human? If the species is not human, skip this step. ')
   gender = input('What is the gender of the human? If the species is not human, skip this step. ')
   is_ext = input('Is the dog extinct? If the species is not a dog, skip this step. ')
+  sci_name = input('What is the scientific name of the dog? If the species is not a dog, please skip this step. ')
+  type = input('What type of dog is this? If the species is not a dog, please skip this step. ')
   
